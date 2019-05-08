@@ -14,6 +14,8 @@ to navbar-dark and bg-dark -->
   
   <div class="collapse navbar-collapse" id="navbarNav">
     <ul class="navbar-nav">
+      <!-- The active class on the first navigation item is important is this diplays the text in bold so that users can quickly
+      identify which page they are currently viewing -->
       <li class="nav-item active">
         <a class="nav-link" href="#">Home <span class="sr-only">(current)</span></a>
       </li>
