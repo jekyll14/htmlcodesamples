@@ -2,6 +2,9 @@
 indicator icons (centered) as well as left and right arrow buttons to allow users to navigate to the next or previous image as well as
 selecting the specific image from the indicator icons at the bottom of the screen. -->
 
+<!-- Students may also add the 'data-interval=""' attribute to any .carousel-item to change the amount of time the delay specifically for that 
+image. This might show a higher level of understanding rather than using the default. -->
+
 <div id="carousel-indicators" class="carousel slide" data-ride="carousel">
   <!-- Initial code block controls how many indicators lines are at the bottom of the carousel. If you require more carousel buttons, copy
   and paste the list item and change the data slide attribute to 3, 4, 5 etc-->
