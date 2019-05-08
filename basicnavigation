@@ -1,0 +1,28 @@
+<!-- This code creates a basic navigation which is responsive for mobile -->
+
+<!-- By default, this navigation bar uses the light colour scheme. This could be changed by changing the navbar-light and bg-light classes
+to navbar-dark and bg-dark -->
+
+<nav class="navbar navbar-expand-lg navbar-light bg-light">
+  <a class="navbar-brand" href="#"><!--Insert website logo or company name here--></a>
+  <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+    <span class="navbar-toggler-icon"></span>
+  </button>
+  
+  <!-- Each of the List Items below creates another navigation item. If you require more, copy and paste another list item
+  inside the unordered list tags -->
+  
+  <div class="collapse navbar-collapse" id="navbarNav">
+    <ul class="navbar-nav">
+      <li class="nav-item active">
+        <a class="nav-link" href="#">Home <span class="sr-only">(current)</span></a>
+      </li>
+      <li class="nav-item">
+        <a class="nav-link" href="#">Features</a>
+      </li>
+      <li class="nav-item">
+        <a class="nav-link" href="#">Pricing</a>
+      </li>
+    </ul>
+  </div>
+</nav>
