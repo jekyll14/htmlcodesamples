@@ -2,6 +2,8 @@
 images within the carousel -->
 <!-- By default, this code includes space for three images, three headings, three subheadings and three indicator lines. This
 can be updated as required -->
+<!-- Students may also add the 'data-interval=""' attribute to any .carousel-item to change the amount of time the delay specifically for that 
+image. This might show a higher level of understanding rather than using the default. -->
 
   <!--This first block of code creates the  indicator icons that appear at the bottom (centered) of the screen. These indicators allow
   users to quickly select specific images to view from the carousel. -->
